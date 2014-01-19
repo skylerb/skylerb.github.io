@@ -47,10 +47,6 @@ a:visited { color: #a0a; }
 	margin: 0 auto;
 }
 
-.default-layout .header {
-	padding-bottom: 32px;
-}
-
 /*****************************************************************************/
 /*
 /* Header
@@ -58,11 +54,14 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .header {
+	background-color: transparent;
 	border: none;
 	padding-top: 59px;
+	padding-bottom: 24px;
 	position: relative;
 	z-index: 99;
 	padding: 30px 0;
+	border-bottom: 1px solid #DDD;
 }
 
 .social-nets-wrapper {
