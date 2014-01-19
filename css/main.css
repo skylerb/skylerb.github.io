@@ -88,6 +88,48 @@ a:visited { color: #a0a; }
 	display: block;
 }
 
+.nav__primary {
+	margin-bottom: 0;
+	padding-top: 33px;
+	margin-left: 0;
+	list-style: none;
+}
+
+/*****************************************************************************/
+/*
+/* Superfish
+/*
+/*****************************************************************************/
+
+.sf-menu {
+	float: right;
+	line-height: 1.0;
+}
+
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.sf-menu  li {
+	position: relative;
+	float: left;
+}
+
+.sf-menu > li {
+	background-color: transparent;
+	margin-left: 40px;
+	text-align:center;
+}
+
+.sf-menu > li:first-child {
+	margin-left: 0;
+}
+
+
+
 /*****************************************************************************/
 /*
 /* Home
