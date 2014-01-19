@@ -44,6 +44,10 @@ a:visited { color: #a0a; }
 	.select-menu{display: block;}
 }
 
+@media (min-width: 1200px) {
+	.default-layout .main-holder {max-width: 1334px;}
+}
+
 /*****************************************************************************/
 /*
 /* Default Layout
@@ -56,6 +60,11 @@ a:visited { color: #a0a; }
 
 .default-layout .header {
 	padding-bottom: 32px;
+}
+
+.default-layout .main-holder {
+	max-width: 1104px;
+	min-height: 100%;
 }
 
 /*****************************************************************************/
