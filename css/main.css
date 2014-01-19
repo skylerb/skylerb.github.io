@@ -33,22 +33,6 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
-/*****************************************************************************/
-/*
-/* Responsive
-/*
-/*****************************************************************************/
-
-@media(max-width: 767px){
-	.sf-menu{display:none;} 
-	.select-menu{display: block;}
-}
-
-@media(min-width: 1200px) {
-	.default-layout .main-holder {
-		max-width: 1334px;
-	}
-}
 
 /*****************************************************************************/
 /*
@@ -234,4 +218,21 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+/*****************************************************************************/
+/*
+/* Responsive
+/*
+/*****************************************************************************/
+
+@media(max-width: 767px){
+	.sf-menu{display:none;} 
+	.select-menu{display: block;}
+}
+
+@media(min-width: 1200px) {
+	.default-layout .main-holder {
+		max-width: 1334px;
+	}
 }
