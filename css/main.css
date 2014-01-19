@@ -35,6 +35,8 @@ h2 {
 h5 {
 	font: normal 13px/18px Asap;
 	color: #616562;
+	text-transform: uppercase;
+	margin-bottom: 17px;
 }
 p { margin: 1em 0; }
 
