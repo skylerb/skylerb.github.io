@@ -60,9 +60,17 @@ a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
-/* Header Social Icons
+/* Header
 /*
 /*****************************************************************************/
+
+.header {
+	border: none;
+	padding-top: 59px;
+	position: relative;
+	z-index: 99;
+	padding: 30px 0;
+}
 
 .social-nets-wrapper {
 	float: right;
