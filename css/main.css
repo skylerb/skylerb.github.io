@@ -60,6 +60,35 @@ a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
+/* Header Social Icons
+/*
+/*****************************************************************************/
+
+.social-nets-wrapper {
+	float: right;
+	padding: 10px 0 0 20px;
+}
+
+.social-nets-wrapper ul {
+	margin: 0;
+}
+
+.social-nets-wrapper ul li:first-child {
+	margin-left: 0;
+}
+
+.social-nets-wrapper ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 6px;
+}
+
+.social-nets-wrapper ul li a {
+	display: block;
+}
+
+/*****************************************************************************/
+/*
 /* Home
 /*
 /*****************************************************************************/
