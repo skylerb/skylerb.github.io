@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Asap:700,400);
+
 /*****************************************************************************/
 /*
 /* Common
@@ -143,6 +145,10 @@ a:visited { color: #a0a; }
 	font-size: 11px;
 }
 
+.copyright a {
+	color: inherit;
+}
+
 nav.footer-nav {
 	margin-bottom: 0;
 	float: right;
@@ -172,16 +178,80 @@ nav.footer-nav {
 	float: left;
 }
 
+
+.sf-menu > li > a {
+	font: bold 14px/18px Asap;
+	padding: 0;
+	border: none;
+	color: #616562;
+	text-transform: uppercase;
+}
+
+.sf-menu > li:hover > ul, .sf-menu > li.sfHover > ul { margin-top:14px; }
+
 .sf-menu > li {
-	background-color: transparent;
-	margin-left: 40px;
-	text-align:center;
+	background-color:transparent;
+	margin-left:40px;
 }
 
-.sf-menu > li:first-child {
-	margin-left: 0;
+@media (min-width: 768px) and (max-width: 979px) {
+	.sf-menu > li { margin-left:25px; }
 }
 
+.sf-menu > li:first-child { margin-left:0; }
+
+.sf-menu > li:first-child:before { display:none; }
+
+.sf-menu > li:before {
+	content:'';
+	pointer-events:none;
+	position:absolute;
+	left:-23px;
+	top:6px;
+	width:6px;
+	height:6px;
+	background-color:#d2d2d2;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.sf-menu > li:before { left:-15px; }
+}
+
+.sf-menu li li { background-color:#d2d2d2; }
+
+.sf-menu li li a {
+	border:none;
+	color:#616562;
+	padding:10px 12px !important;
+}
+
+.sf-menu > li > a:hover, .sf-menu > li.sfHover> a, .sf-menu > li.current-menu-item > a, .sf-menu > li.current_page_item > a {
+	background-color:transparent;
+	color:#fe5f57;
+}
+
+.sf-menu li li > a:hover, .sf-menu li li.sfHover > a, .sf-menu li li.current-menu-item > a, .sf-menu li li.current_page_item > a {
+	background-color:#fe5f57;
+	color:#fff;
+}
+
+.sf-menu a.sf-with-ul { padding-right:0; }
+
+.sf-sub-indicator {
+	right:50%;
+	margin-right:-5px;
+	background-image:url(/img/arrows-ffffff.png);
+}
+
+.sf-menu ul .sf-sub-indicator {
+	right:5px;
+	margin-right:0;
+}
+
+.sf-menu ul a > .sf-sub-indicator { top:12px; }
 
 
 /*****************************************************************************/
