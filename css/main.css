@@ -38,6 +38,16 @@ h5 {
 	text-transform: uppercase;
 	margin-bottom: 17px;
 }
+
+.hr {
+	overflow: hidden;
+	margin: 30px 0px;
+	height: 1px;
+	background: #ebebeb;
+	font-size: 0;
+	line-height: 0;
+}
+
 p { margin: 1em 0; }
 
 a         { color: #00a; }
