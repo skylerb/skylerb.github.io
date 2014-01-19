@@ -115,6 +115,7 @@ a:visited { color: #a0a; }
 
 .footer {
 	padding: 0;
+	border:none;
 }
 
 .footer .container {
