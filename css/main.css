@@ -49,6 +49,11 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+@media(max-width: 767px){
+	.sf-menu{display:none;} 
+	.select-menu{display: block;}
+}
+
 /*****************************************************************************/
 /*
 /* Site
