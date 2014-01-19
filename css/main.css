@@ -65,6 +65,7 @@ a:visited { color: #a0a; }
 .default-layout .main-holder {
 	max-width: 1104px;
 	min-height: 100%;
+	margin: 0 auto;
 }
 
 /*****************************************************************************/
