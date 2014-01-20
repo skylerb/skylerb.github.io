@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Asap:700,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 /*****************************************************************************/
 /*
@@ -79,6 +80,16 @@ a:visited { color: #a0a; }
 	.navbar-nav.navbar-right:last-child {
 		margin-right: 14px;
 	}
+}
+
+.nav > li > a {
+	font-family: Montserrat, Lato, Arial, Verdana, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 0.625em;
+	font-weight: normal;
 }
 
 /*****************************************************************************/
