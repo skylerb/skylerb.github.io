@@ -108,6 +108,22 @@ li.yellow {
 	background: #f1c40f;
 }
 
+li.orange {
+	background: #e67e22;
+}
+
+li.green {
+	background: #2ecc71;
+}
+
+li.blue {
+	background: #3498db;
+}
+
+li.red {
+	background: #e74c3c;
+}
+
 /*****************************************************************************/
 /*
 /* Footer
