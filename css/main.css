@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Asap:700,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 /*****************************************************************************/
 /*
@@ -47,7 +48,13 @@ h5 {
 
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a { 
+	color: #2980b9; 
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
