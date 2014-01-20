@@ -96,6 +96,14 @@ header.main h1 {
 	height: 7px;
 }
 
+.border-bar li {
+	float: left;
+	width: 20%;
+	height: 7px;
+	margin: 0;
+	padding: 0;
+}
+
 li.yellow {
 	background: #f1c40f;
 }
