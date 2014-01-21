@@ -165,10 +165,10 @@ li.red {
 .footer {
 	padding: 0;
 	border:none;
+	background: #373838;
 }
 
 .footer .container {
-	border-top: 1px solid #d1d1d1;
 	padding: 51px 0 60px 0;
 }
 
