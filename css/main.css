@@ -109,6 +109,10 @@ a:visited { color: #a0a; }
 	}
 }
 
+.navbar-default {
+	background-color: #fff;
+}
+
 .navbar-default  .nav > li > a {
 	font-family: Montserrat, Lato, Arial, Verdana, sans-serif;
 	color: #333;
