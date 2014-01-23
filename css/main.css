@@ -189,6 +189,11 @@ nav.footer-nav ul {
 	margin: 0;
 	padding: 0;
 	float: right;
+	list-style-type: none;
+}
+
+nav.footer-nav ul li {
+	display: inline;
 }
 
 
