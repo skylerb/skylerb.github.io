@@ -180,24 +180,15 @@ li.red {
 	padding: 51px 0 60px 0;
 }
 
-.footer-text {
-	float: left;
-}
-
-.copyright {
-	padding: 0;
-	color: #545454;
-	font-size: 11px;
-}
-
-.copyright a {
-	color: inherit;
-}
-
 nav.footer-nav {
 	margin-bottom: 0;
-	float: right;
 	overflow: hidden;
+}
+
+nav.footer-nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
 }
 
 
