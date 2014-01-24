@@ -131,9 +131,9 @@ a:visited { color: #a0a; }
 	font-weight: normal;
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand {
+	color: #333;
 	font-family: Outage, Arial, sans-serif;
-	color: #000;
 	line-height:70px;
 	padding: 0 20px;
 }
