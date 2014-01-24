@@ -81,7 +81,7 @@ a {
 	transition: all 0.3s ease-out;
 }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #444; }
 
 #content {
 	padding: 73px 0 0 0;
@@ -131,6 +131,7 @@ a:visited { color: #a0a; }
 	color: #333;
 	line-height:70px;
 	padding: 0 20px;
+	font-size: 1.0em;
 }
 
 .navbar-brand strong {
