@@ -183,6 +183,7 @@ li.red {
 nav.footer-nav {
 	margin-bottom: 0;
 	overflow: hidden;
+	text-align:center;
 }
 
 nav.footer-nav ul {
