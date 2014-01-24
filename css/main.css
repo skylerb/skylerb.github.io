@@ -18,6 +18,13 @@
 
 }
 
+@font-face {
+	font-family: 'Outage';
+	src: url('/fonts/Outage.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /*****************************************************************************/
 /*
 /* Common
@@ -121,6 +128,10 @@ a:visited { color: #a0a; }
 	text-decoration: none;
 	font-size: 0.625em;
 	font-weight: normal;
+}
+
+.navbar-brand {
+	font-family: Outage, Arial, sans-serif;
 }
 
 /*****************************************************************************/
