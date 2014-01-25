@@ -247,9 +247,9 @@ nav.footer-nav ul li {
 }
 
 .posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  float: right;
+	color: #888;
+	margin-left: 10px;
 }
 
 /*****************************************************************************/
