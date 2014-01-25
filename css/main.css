@@ -111,6 +111,12 @@ a:visited { color: #444; }
 	padding: 73px 0 0 0;
 }
 
+#content .logo {
+	width: 150px;
+	position:relative;
+	left: 50%;
+}
+
 
 .content-holder {
 	padding-bottom: 59px;
