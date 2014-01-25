@@ -25,6 +25,18 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url('/fonts/oldstandard-italic-webfont.eot');
+    src: url('/fonts/oldstandard-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/oldstandard-italic-webfont.woff') format('woff'),
+         url('/fonts/oldstandard-italic-webfont.ttf') format('truetype'),
+         url('/fonts/oldstandard-italic-webfont.svg#old_standard_ttitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*****************************************************************************/
 /*
 /* Common
@@ -131,15 +143,22 @@ a:visited { color: #444; }
 	color: #333;
 	line-height:70px;
 	padding: 0 20px;
-	font-size: 1.1em;
+	font-size: 1.0em;
+	font-family: "Old Standard TT", "Times New Romana", Georgia, serif;
 }
 
 .navbar-brand strong {
 	font-family: Outage, Arial, sans-serif;
+	font-size: 1.1em;
 }
 
 .navbar-nav {
 	height: 70px;
+}
+
+.navbar-toggle {
+	margin-top:18px;
+	margin-bottom:18px;
 }
 
 @media (min-width: 768px) {
@@ -229,11 +248,6 @@ nav.footer-nav ul {
 
 nav.footer-nav ul li {
 	display: inline;
-}
-
-.navbar-toggle {
-	margin-top:18px;
-	margin-bottom:18px;
 }
 
 
