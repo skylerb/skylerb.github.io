@@ -143,13 +143,12 @@ a:visited { color: #444; }
 	color: #333;
 	line-height:70px;
 	padding: 0 20px;
-	font-size: 1.0em;
+	font-size: 1.125em;
 	font-family: "Old Standard TT", "Times New Romana", Georgia, serif;
 }
 
-.navbar-brand strong {
+.navbar-brand span {
 	font-family: Outage, Arial, sans-serif;
-	font-size: 1.1em;
 }
 
 .navbar-nav {
