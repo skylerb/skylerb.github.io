@@ -1,10 +1,22 @@
-@import url(//fonts.googleapis.com/css?family=Asap:700,400);
+/*****************************************************************************/
+/*
+/* IE and WP Fix
+/*
+/*****************************************************************************/
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
 
 /*****************************************************************************/
 /*
 /* Fonts
 /*
 /*****************************************************************************/
+
+@import url(//fonts.googleapis.com/css?family=Asap:700,400);
 
 @font-face {
     font-family: 'Montserrat';
@@ -221,7 +233,7 @@ li.red {
 	background: #e74c3c;
 }
 
-li.turquiose {
+li.turquoise {
 	background: #1abc9c;
 }
 
