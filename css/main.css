@@ -119,6 +119,7 @@ a:visited { color: #444; }
 	width: 150px;
 	position:relative;
 	left: 50%;
+	margin-left: -75px;
 }
 
 
