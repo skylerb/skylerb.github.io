@@ -104,6 +104,10 @@ a:visited { color: #444; }
 	padding-bottom: 59px;
 }
 
+.content-odd {
+	background: #fbfcfd;
+}
+
 /*****************************************************************************/
 /*
 /* Default Layout
@@ -215,6 +219,18 @@ li.blue {
 
 li.red {
 	background: #e74c3c;
+}
+
+li.turquiose {
+	background: #1abc9c;
+}
+
+li.purple {
+	background: #a66bbe;
+}
+
+li.dark {
+	background: #34495e;
 }
 
 /*****************************************************************************/
