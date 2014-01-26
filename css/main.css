@@ -400,10 +400,18 @@ nav.footer-nav ul li {
 	text-decoration: none;
 }
 
+.projects a:hover {
+	background-color: #fbfcfd;
+}
+
 .projects .name {
 	font-weight: normal;
 	display: block;
 	color: #000;
+}
+
+.projects a:hover .name {
+	text-decoration: underline;
 }
 
 .projects .desc {
