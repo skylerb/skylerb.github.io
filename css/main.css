@@ -137,6 +137,11 @@ a:visited { color: #444; }
 	font-family: Montserratbold, Lato, Arial, Verdana, sans-serif;
 	font-style: normal;
 	text-align: center;
+	margin-top:35px;
+}
+
+.intro h5 {
+	padding: 0 25%;
 }
 
 
