@@ -376,6 +376,54 @@ nav.footer-nav ul li {
 
 /*****************************************************************************/
 /*
+/* Projects
+/*
+/*****************************************************************************/
+
+.projects {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.projects li {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.projects a {
+	color: #444;
+	display: block;
+	border-bottom: 1px solid #DAE8EE;
+	padding: 8px 2px;
+	text-decoration: none;
+}
+
+.projects .name {
+	font-weight: normal;
+	color: #000;
+}
+
+.projects .desc {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+}
+
+.projects .lang {
+	position: absolute;
+	right: 4px;
+	top: 10px;
+	background: #bbb;
+	border-radius: 4px;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 11px;
+}
+
+/*****************************************************************************/
+/*
 /* Responsive
 /*
 /*****************************************************************************/
