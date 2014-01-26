@@ -402,6 +402,7 @@ nav.footer-nav ul li {
 
 .projects .name {
 	font-weight: normal;
+	display: block;
 	color: #000;
 }
 
