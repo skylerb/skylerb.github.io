@@ -74,6 +74,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #444;
 }
 
 html, body { height: 100%; }
@@ -96,9 +97,6 @@ h2 {
 }
 h5 {
 	font: normal 13px/18px Asap;
-	color: #616562;
-	text-transform: uppercase;
-	margin-bottom: 17px;
 }
 
 .hr {
