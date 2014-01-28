@@ -440,6 +440,14 @@ nav.footer-nav ul li {
 	font-size: 11px;
 }
 
+.project {
+	margin: 40px 0;
+}
+
+.project .info {
+	text-align: justify;
+}
+
 /*****************************************************************************/
 /*
 /* Responsive
