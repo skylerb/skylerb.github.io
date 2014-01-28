@@ -444,6 +444,15 @@ nav.footer-nav ul li {
 	margin: 40px 0;
 }
 
+.project img {
+	width: 300px;
+	float: left;
+	-webkit-box-shadow: -1px 1px 5px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: -1px 1px 5px rgba(50, 50, 50, 0.55);
+	box-shadow: -1px 1px 5px rgba(50, 50, 50, 0.55);
+	margin-right: 30px;
+}
+
 .project .info {
 	text-align: justify;
 }
