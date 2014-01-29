@@ -171,6 +171,13 @@ a:hover   { color: #e67e22; }
 	margin: 0 auto;
 }
 
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
 /*****************************************************************************/
 /*
 /* Nav
@@ -295,8 +302,12 @@ li.dark {
 	background: #373838;
 }
 
+footer, .push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
+}
+
 .footer .container {
-	padding: 51px 0 60px 0;
+	padding: 51px 0 20px 0;
 }
 
 footer .credits {

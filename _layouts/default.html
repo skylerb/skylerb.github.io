@@ -16,8 +16,11 @@
 		<script src="/js/main.js"></script>
     </head>
     <body class="default-layout">
-			{% include header.html %}			
-			{{ content }}
+			{% include header.html %}	
+			<div class="wrapper">
+				{{ content }}
+				<div class="push"></div>
+			</div>
 			{% include footer.html %}
     </body>
 </html>
