@@ -13,7 +13,7 @@
 		{% endif %}
 		<meta name="author" content="Skyler Beckman">
         <title>
-			{% if page.title != "Home" %}
+			{% if page.title == "Home" %}
 				{{ site.name }}, a travelling software developer
 			{% else %}
 				{{ site.name }} - {{ page.title }}
