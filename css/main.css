@@ -151,6 +151,12 @@ a:hover   { color: #e67e22; }
 	padding: 0 25%;
 }
 
+@media (max-width: 768px) {
+	.intro h5 {
+		padding: 0 10%;
+	}
+}
+
 .recent-pots h4 {
 	font-style: normal;
 	font-size: 1.125em;
