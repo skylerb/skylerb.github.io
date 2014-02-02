@@ -12,7 +12,13 @@
 			<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
 		{% endif %}
 		<meta name="author" content="Skyler Beckman">
-        <title>{{ page.title }} | {{ site.name }}</title>
+        <title>
+			{% if page.title != "Home" %}
+				{{ site.name }}, a travelling software developer
+			{% else %}
+				{{ site.name }} - {{ page.title }}
+			{% endif %}
+		</title>
         <meta name="viewport" content="width=device-width">
 		<link rel="shortcut icon" href="/favicon.png">
     
