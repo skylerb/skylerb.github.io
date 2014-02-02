@@ -94,6 +94,9 @@ h2 {
 	font: normal 31px/35px Asap;
 	color: #343434; 
 }
+h4 {
+	font-family: Montserratbold, Lato, Arial, Verdana, sans-serif;
+}
 h5 {
 	font: normal 13px/18px Asap;
 }
@@ -133,7 +136,6 @@ a:hover   { color: #e67e22; }
 }
 
 .intro h4 {
-	font-family: Montserratbold, Lato, Arial, Verdana, sans-serif;
 	font-style: normal;
 	text-align: center;
 	margin-top:35px;
@@ -149,6 +151,12 @@ a:hover   { color: #e67e22; }
 	padding: 0 25%;
 }
 
+.recent-pots h4 {
+	font-style: normal;
+	font-size: 1.125em;
+	line-height: 1.50em;
+	margin: 1em 0 0.5em 0;
+}
 
 .content-holder {
 	padding-bottom: 59px;
