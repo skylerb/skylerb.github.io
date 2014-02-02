@@ -322,9 +322,15 @@ nav.footer-nav ul {
 
 nav.footer-nav ul li {
 	display: inline;
+}
+
+nav.footer-nav ul li a {
 	color: #aaa;
 }
 
+nav.footer-nav ul li a:hover {
+	text-decoration: underline;
+}
 
 /*****************************************************************************/
 /*
