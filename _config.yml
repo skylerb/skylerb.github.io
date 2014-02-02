@@ -2,3 +2,4 @@ name: Skyler Beckman
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:month/:title/
+description: "I'm a developer traveling around the world. I work on a variety of platforms, but enjoy web development. I have experience on both the frontend and backend. I use Java, PHP, C, C#, C++, SQL, Javascript."
