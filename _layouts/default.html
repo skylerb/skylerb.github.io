@@ -8,6 +8,9 @@
 		{% else %}
 			<meta name="description" content="{{site.description}}" />
 		{% endif %}
+		{% if page.date %}
+			<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
+		{% endif %}
 		<meta name="author" content="Skyler Beckman">
         <title>{{ page.title }} | {{ site.name }}</title>
         <meta name="viewport" content="width=device-width">
