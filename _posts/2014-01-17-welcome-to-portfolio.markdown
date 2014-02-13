@@ -5,5 +5,5 @@ date:   2014-01-24 18:18:00
 categories: update
 ---
 
-This site is still a work in progress. I have some other projects I'm currently working so please be patient.
+This site is still a work in progress. I have some other projects I'm currently working on so please be patient.
 
