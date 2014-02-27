@@ -307,6 +307,9 @@ li.dark {
 	padding: 0;
 	border:none;
 	background: #191818;
+	position:absolute;
+	bottom: 0;
+	width:100%;
 }
 
 .footer .container {
