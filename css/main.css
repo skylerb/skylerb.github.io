@@ -312,7 +312,7 @@ li.dark {
 /*
 /*****************************************************************************/
 
-.footer {
+#footer {
 	padding: 0;
 	border:none;
 	background: #191818;
@@ -322,16 +322,16 @@ li.dark {
 	height:155px;
 }
 
-.footer .container {
+#footer .container {
 	padding: 51px 0 20px 0;
 }
 
-footer .credits {
+#footer .credits {
 	text-align:center;
 	font-size: 0.750em;
 }
 
-footer .credits a {
+#footer .credits a {
 	color: #f1c40f;
 }
 
