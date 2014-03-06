@@ -20,6 +20,18 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300);
 
 @font-face {
+    font-family: 'Lato light';
+    src: url('/fonts/lato-light-webfont.eot');
+    src: url('/fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-light-webfont.woff') format('woff'),
+         url('/fonts/lato-light-webfont.ttf') format('truetype'),
+         url('/fonts/lato-light-webfont.svg#lato_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'Montserrat';
     src: url('/fonts/montserrat-regular-webfont.eot');
     src: url('/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -379,11 +391,12 @@ nav.footer-nav ul li a:hover {
 }
 
 .posts li {
-  line-height: 1.75em;
+	line-height: 1.6em;
+	font-family: "Lato light", Arial, Verdana, sans-serif;
 }
 
 .posts span {
-  float: right;
+  	float: right;
 	color: #888;
 	margin-left: 10px;
 }
@@ -457,9 +470,11 @@ nav.footer-nav ul li a:hover {
 }
 
 .projects .name {
-	font-weight: normal;
 	display: block;
-	color: #000;
+	font-family: 'Old Standard TT', Georgia, Times, serif;
+	text-transform: none !important;
+	font-size:1em;
+	line-height:1.5em;
 }
 
 .projects a:hover .name {
@@ -468,8 +483,9 @@ nav.footer-nav ul li a:hover {
 
 .projects .desc {
 	display: block;
-	margin: 0;
-	font-size: 12px;
+	font-family: "Lato light", Arial, Verdana, sans-serif;
+	line-height: 1.6em !important;
+	font-size: 0.875em;
 }
 
 .projects .lang {
