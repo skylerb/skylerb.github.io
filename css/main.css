@@ -161,6 +161,8 @@ a:hover   { color: #e67e22; }
 	margin-top:35px;
 	margin-bottom:15px;
 	font-size:1.8rem;
+	color: #181818;
+	font-weight:normal;
 }
 
 .intro h5 {
@@ -190,6 +192,16 @@ a:hover   { color: #e67e22; }
 
 .content-odd {
 	background: #fbfcfd;
+}
+
+.formal {
+	font-family: 'Old Standard TT', Georgia, Times, serif;
+	text-transform: none !important;
+}
+
+.sidebar p {
+	line-height: 1.6em;
+	font-family: "Lato light", Arial, Verdana, sans-serif;
 }
 
 /*****************************************************************************/
@@ -397,7 +409,7 @@ nav.footer-nav ul li a:hover {
 
 .posts span {
   	float: right;
-	color: #888;
+	color: #444;
 	margin-left: 10px;
 }
 
@@ -406,6 +418,15 @@ nav.footer-nav ul li a:hover {
 /* Posts
 /*
 /*****************************************************************************/
+
+.post {
+	color: #222;
+	font-size: 1.125em;
+	line-height:1.7em;
+	font-family: "Lato light", Arial, Verdana, sans-serif;
+	margin: 4em 0 2em 0;
+	letter-spacing: 0.01em;
+}
 
 /* standard */
 .post pre {
@@ -437,6 +458,16 @@ nav.footer-nav ul li a:hover {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.dash {
+	width: 10%;
+	height: 2px;
+	background: #111;
+	display: block;
+	position: relative;
+	margin-bottom: 15px;
+	margin: 20px 0 !important;
 }
 
 /*****************************************************************************/
