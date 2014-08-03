@@ -3,44 +3,19 @@ layout: default
 title: Home
 ---
 <div class="container">
-			<!-- Top Navigation -->
-			<header class="codrops-header">
-				<h1>Skyler Beckman <span>Software Developer. Boilermaker. Explorer.</span></h1>	
-			</header>
-			<section class="grid-wrap">
-				<ul class="grid swipe-right" id="grid">
-					<li class="title-box">
-						<h2>The Life Of <a href="mailto:sbeckman@outlook.com">Skyler Beckman</a></h2>
-					</li>
-					<li><a href="#"><img src="http://ramblerzone1.floridaramblerme.netdna-cdn.com/wp-content/uploads/2010/08/surfing-sebastian-inlet-mar.jpg" alt="dummy"><h3>Albuquerque Youth Lacrosse</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-				</ul>
-			</section>
-			<section class="related">
-				<p>If you enjoyed this demo you might also like:</p>
-				<a href="http://tympanus.net/Development/ThumbnailGridAnimations/">
-					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/10/ThumbnailGridAnimations1-300x162.jpg" />
-					<h3>Animations for Thumbnail Grids</h3>
-				</a>
-				<a href="http://tympanus.net/Development/GridLoadingEffects/">
-					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/07/GridLoadingEffects-300x162.png" />
-					<h3>Grid Loading Effects</h3>
-				</a>
-			</section>
-		</div><!-- /container -->
-<div class="content-holder clearfix content-odd" style="border-bottom: 1px solid #dae8ee;">
-	<div class="container">
-		<div id="content" class="recent-posts">
-			<h4>Blog Posts</h4>
-			<ul class="posts">
-				{% for post in site.posts %}
-				  <li><a href="{{ post.url }}">{{ post.title }}<span class="date formal">{{ post.date | date_to_string }}</span></a></li>
-				{% endfor %}
-			</ul>		
-		</div>
-	</div>
-</div>
+	<!-- Top Navigation -->
+	<header class="codrops-header">
+		<h1>Skyler Beckman <span>Software Developer. Boilermaker. Explorer.</span></h1>	
+	</header>
+	<section class="grid-wrap">
+		<ul class="grid swipe-right" id="grid">
+			
+			<li class="title-box">
+				<h2>The Life Of <a href="mailto:sbeckman@outlook.com">Skyler Beckman</a></h2>
+			</li>
+			{% for post in site.posts %}
+				<li><a href="{{ post.url }}"><img src="/img/dummy.png" alt="{{ post.title }}"><h3>{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</section>
+</div><!-- /container -->
