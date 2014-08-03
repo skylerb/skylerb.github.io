@@ -2,16 +2,36 @@
 layout: default
 title: Home
 ---
-<div class="content-holder clearfix" style="border-bottom: 1px solid #dae8ee;">
-	<div class="container">
-		<div id="content" class="intro">
-				<img src="/img/backpack.svg" />
-				<h4>A Few Words About Me</h4>
-				<h5 style="text-align: center;">I'm Skyler, a freelance software developer and designer with a love for travel. I work with a wide range of technologies for web, mobile, and desktop. You can <a href="/contact">hire me</a> for your next project.</h5>
-			</div>
-		</div>
-	</div>
-</div>
+<div class="container">
+			<!-- Top Navigation -->
+			<header class="codrops-header">
+				<h1>Skyler Beckman <span>Software Developer. Boilermaker. Explorer.</span></h1>	
+			</header>
+			<section class="grid-wrap">
+				<ul class="grid swipe-right" id="grid">
+					<li class="title-box">
+						<h2>The Life Of <a href="mailto:sbeckman@outlook.com">Skyler Beckman</a></h2>
+					</li>
+					<li><a href="#"><img src="http://ramblerzone1.floridaramblerme.netdna-cdn.com/wp-content/uploads/2010/08/surfing-sebastian-inlet-mar.jpg" alt="dummy"><h3>Albuquerque Youth Lacrosse</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
+				</ul>
+			</section>
+			<section class="related">
+				<p>If you enjoyed this demo you might also like:</p>
+				<a href="http://tympanus.net/Development/ThumbnailGridAnimations/">
+					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/10/ThumbnailGridAnimations1-300x162.jpg" />
+					<h3>Animations for Thumbnail Grids</h3>
+				</a>
+				<a href="http://tympanus.net/Development/GridLoadingEffects/">
+					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/07/GridLoadingEffects-300x162.png" />
+					<h3>Grid Loading Effects</h3>
+				</a>
+			</section>
+		</div><!-- /container -->
 <div class="content-holder clearfix content-odd" style="border-bottom: 1px solid #dae8ee;">
 	<div class="container">
 		<div id="content" class="recent-posts">
@@ -21,56 +41,6 @@ title: Home
 				  <li><a href="{{ post.url }}">{{ post.title }}<span class="date formal">{{ post.date | date_to_string }}</span></a></li>
 				{% endfor %}
 			</ul>		
-		</div>
-	</div>
-</div>
-<div class="content-holder clearfix">
-	<div class="container">
-		<div id="content">
-			<h4>Recent Projects</h4>
-			<div class="row">
-				<div class="col-md-6">
-					<ul class="projects">
-						<li>
-							<a href="http://backpackcode.com" target="_blank">
-								<span class="name">Backpack Code</span>
-								<span class="desc">Tales of a traveling software developer</span>
-							</a>
-						</li>
-						<li>
-							<a href="/Plug-X" target="_blank">
-								<span class="name">Plug X</span>
-								<span class="desc">Advanced features for Plug.DJ</span>
-								<span class="lang">Javsacript</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://purduelacrosse.com" target="_blank">
-								<span class="name">Purdue Lacrosse</span>
-								<span class="desc">Purdue University Men's Lacrosse</span>
-								<span class="lang">PHP5</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul class="projects">
-						<li>
-							<a href="http://abqyouthlax.com">
-								<span class="name">Albuquerque Youth Lacrosse</span>
-								<span class="desc">Youth lacrosse team in Albuquerque, NM.</span>
-								<span class="lang">PHP5</span>
-							</a>
-						</li>
-						<li>
-							<a href="/projects/dump">
-								<span class="name">Project Dump</span>
-								<span class="desc">List of old and unmaintained projects</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>
