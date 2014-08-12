@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to my Portfolio!"
+title:  "Welcome to my Blog!"
 date:   2014-01-24 18:18:00
 categories: update
 author: "Skyler Beckman"
