@@ -1,5 +1,5 @@
 name: Skyler Beckman
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: /blog/:year/:month/:title/
 description: "I've been called Skyler in many parts of the world."
